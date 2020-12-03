@@ -3,7 +3,9 @@
     <br /><br />
     <h3>Welcome to my Vue.js App</h3> 
     <h4>by JUYNAG Team</h4>
+    <h5>Test travis </h5>
     <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="Vue logo" src="../assets/t1.png" />
     <br /><br />
     UserName : <input type="text" name="username" v-model="input.username" />
     <br /><br />
