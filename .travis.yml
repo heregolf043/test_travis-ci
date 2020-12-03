@@ -12,6 +12,6 @@ script:
   - yarn lint
   - yarn build
 after_success:
-- firebase use --token "1//0g46cYcqhKzPRCgYIARAAGBASNwF-L9IrrK5wQU2feKFv7emaByfi7568Y63Sm_tgzj7vsAQBFvVxWMQTfpLC5V1FzSnN1EXFIpA" # set firebase token
-- firebase use --add "864230260583" # set current project
-- firebase deploy --non-interactive --token "1//0g46cYcqhKzPRCgYIARAAGBASNwF-L9IrrK5wQU2feKFv7emaByfi7568Y63Sm_tgzj7vsAQBFvVxWMQTfpLC5V1FzSnN1EXFIpA" # deploy project
+- firebase use --token 1//0g46cYcqhKzPRCgYIARAAGBASNwF-L9IrrK5wQU2feKFv7emaByfi7568Y63Sm_tgzj7vsAQBFvVxWMQTfpLC5V1FzSnN1EXFIpA # set firebase token
+- firebase use --add 864230260583 # set current project
+- firebase deploy --non-interactive --token 1//0g46cYcqhKzPRCgYIARAAGBASNwF-L9IrrK5wQU2feKFv7emaByfi7568Y63Sm_tgzj7vsAQBFvVxWMQTfpLC5V1FzSnN1EXFIpA # deploy project
